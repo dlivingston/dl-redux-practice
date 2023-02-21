@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root {
+  --blue-charcoal: rgb(40, 44, 52);
+  --white: rgb(255,255,255);
+  --maya-blue: rgb(97,218,251);
+  --dodgerblue: rgb(30, 144, 255);
+  --steelblue: rgb(70, 130, 180);
+  --rebeccapurple: rgb(102, 51, 153);
+  --papayawhip: rgb(255, 239, 213);
+  --gold: rgb(255, 215, 0);
+  --cornsilk: rgb(255, 248, 220);
+  --oldlace: rgb(253, 245, 230);
+  --tomato: rgb(255, 99, 71);
+  --crimson: rgb(220, 20, 60);
+  --seagreen: rgb(46, 139, 87);
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--blue-charcoal);
+  color: var(--cornsilk);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
