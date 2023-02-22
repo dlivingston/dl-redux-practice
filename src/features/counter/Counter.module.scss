@@ -6,20 +6,30 @@
     border-radius: 0.5rem;
     font-size: 1.25rem;
     padding: 0.5rem 0.75rem;
+    margin: 0 0.5rem;
     &:hover {
       color: var(--steelblue);
       border-color: var(--steelblue);
     }
   }
-}
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 1rem 0;
-}
-.count-display {
-  padding: 0 1rem;
-  font-weight: 700;
-  font-size: 2rem;
+  .textbox {
+    border: 2px solid var(--maya-blue);
+    border-radius: 0.5rem;
+    background: transparent;
+    color: var(--cornsilk);
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    width: 3rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  .count-display {
+    padding: 0 1rem;
+    font-weight: 700;
+    font-size: 2rem;
+  }
 }
